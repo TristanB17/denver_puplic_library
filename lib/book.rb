@@ -4,7 +4,6 @@ class Book
                 :title,
                 :publication_date
 
-
   def initialize(book_info)
     @author_first_name = book_info[:author_first_name]
     @author_last_name = book_info[:author_last_name]
