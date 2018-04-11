@@ -33,6 +33,10 @@ class LibraryTest < Minitest::Test
       })
     mockingbird = harper_lee.add_book("To Kill a Mockingbird", "July 11, 1960")
     dpl = Library.new
+
+    dpl.add_to_collection(jane_eyre)
+    assert_instance_of Book, dpl.books[0]
+    assert_equal 1, dpl.books.length
   end
 
 end

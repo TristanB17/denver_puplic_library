@@ -36,8 +36,10 @@ class AuthorTest < Minitest::Test
       first_name: "Charlotte",
       last_name: "Bronte"
       })
+
     charlotte_bronte.add_book("Jane Eyre", "October 16, 1847")
     assert_instance_of Book, charlotte_bronte.books[0]
+
     charlotte_bronte.add_book("Villette", "1853")
     assert_instance_of Book, charlotte_bronte.books[1]
     assert_equal 2, charlotte_bronte.books.length

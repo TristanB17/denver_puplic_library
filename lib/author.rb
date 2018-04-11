@@ -17,6 +17,7 @@ class Author
       publication_date: publication_date
       })
     @books << book
+    book
   end
 
 end
