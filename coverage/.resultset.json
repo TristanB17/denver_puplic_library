@@ -45,6 +45,8 @@
       ],
       "/Users/Tristan/Documents/Turing/1module/projects/library/denver_puplic_library/lib/library.rb": [
         1,
+        null,
+        1,
         1,
         null,
         1,
@@ -52,7 +54,6 @@
         null,
         null,
         1,
-        5,
         5,
         null,
         null,
@@ -63,6 +64,6 @@
         null
       ]
     },
-    "timestamp": 1523464008
+    "timestamp": 1523465389
   }
 }

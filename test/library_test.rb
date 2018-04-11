@@ -63,7 +63,7 @@ class LibraryTest < Minitest::Test
     dpl.add_to_collection(villette)
     dpl.add_to_collection(mockingbird)
     assert_equal 3, dpl.books.length
-    assert dpl.books.include?("To Kill a Mockingbird")
+    assert dpl.books.include?("Jane Eyre")
   end
 
 end
