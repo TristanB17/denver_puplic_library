@@ -1,3 +1,5 @@
+require './lib/book'
+
 class Author
   attr_reader   :first_name,
                 :last_name,
